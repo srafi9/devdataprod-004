@@ -11,9 +11,9 @@ shinyUI(pageWithSidebar(
         numericInput('wt', 'Weight (lbs):', 3200, min = 1500, max = 5500, step = 100)
     ),
     mainPanel(
-        h6('Course Project by William Rowell'),
-        h3('Predicted MPG'),
-        h4('You entered:'),
+        h6('Course Project'),
+        h3('MPG Prediction'),
+        h4('Value entered:'),
         verbatimTextOutput("inputValues"),
         h4('Which resulted in a prediction of:'),
         verbatimTextOutput("prediction"),
