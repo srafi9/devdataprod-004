@@ -38,4 +38,4 @@ shinyServer(
             points(adjusted_weight(), predicted_mpg(), col='red', cex=3)  
         })
     }
-)
+) 
